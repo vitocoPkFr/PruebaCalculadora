@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/resultado"
+        android:layout_alingParentTop="true"
+        android:layout_alingParentRight="true"
+        android:layout_alingParendtEnd="true"
+        android:layout_marginRight="171dp"
+        android:layout_marginEnd="171dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/btnsuma"
+        android:layout_below="@id/btnsuma"
+        android:layout_alingParentLeft="true"
+        android:layout_alingParentStart="true"
+        />
+
+    <Button
+        android:id="@+id/btnsuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sumar"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/btnresta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restar"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <Button
+        android:id="@+id/btnmultiplicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="multiplicar"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/btndividir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dividir"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
